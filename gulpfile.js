@@ -20,7 +20,7 @@ gulp.task('less', function () { // Создаем таск "less"
     ]) // Берем все Less-файлы из папки less и дочерних, если таковые будут
     .pipe(less()) // Преобразуем less в CSS посредством gulp-less
     .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
-    .pipe(gulp.dest('./app/css')) // Выгружаем результата в папку app/css
+    .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
     .pipe(browserSync.reload({stream: true})); // Обновляем CSS на странице при изменении
 });
 

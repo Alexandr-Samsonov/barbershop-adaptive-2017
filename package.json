@@ -1,21 +1,21 @@
 {
-  "name": "mishka-adaptive-gulp",
+  "name": "barbershop-adaptive-gulp",
   "version": "1.0.0",
-  "description": "miskla adaptive project",
+  "description": "barbershop adaptive project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Areshka/mishka-adaptive.git"
+    "url": "git+https://github.com/Alexandr-Samsonov/barbershop-adaptive-2017"
   },
-  "author": "Oleg Moskalenko",
+  "author": "Alexandr-Samsonov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Areshka/mishka-adaptive/issues"
+    "url": "https://github.com/Alexandr-Samsonov/barbershop-adaptive-2017/issues"
   },
-  "homepage": "https://github.com/Areshka/mishka-adaptive#readme",
+  "homepage": "https://github.com/Alexandr-Samsonov/barbershop-adaptive-2017#readme",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "del": "^2.2.2",
