@@ -27,3 +27,28 @@ body {
     background-size: 1391px auto;
   }
 }
+.page-header {
+  min-height: 395px;
+  /* временно для сетки */
+  background-color: red;
+  /* временно для сетки */
+}
+.page-header__logo {
+  height: 85px;
+  background-color: green;
+  /* временно для сетки */
+}
+@media (min-width: 768px) {
+  .page-header {
+    position: relative;
+    min-height: 70px;
+    /* минимальная высота содержания */
+    padding-bottom: 400px;
+  }
+  .page-header__logo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+  }
+}
