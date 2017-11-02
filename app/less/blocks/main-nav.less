@@ -1,0 +1,44 @@
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+
+  background-color: white; /* Временно для сетки */
+}
+
+.main-nav__items,
+.main-nav__user-items {
+	margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__items {
+  min-height: 70px; /* Временно для сетки */
+  background-color: black; /* Временно для сетки */
+}
+
+.main-nav__user-items {
+  min-height: 70px; /* Временно для сетки */
+  background-color: black; /* Временно для сетки */
+}
+
+@media @tablet-widths {
+  .main-nav {
+    width: auto;
+    min-height: 70px;
+    margin: 0;
+  }
+
+  .main-nav__wrapper {
+    .container();
+    .clearfix();
+  }
+
+  .main-nav__items {
+    float: left;
+    width: 570px;
+    min-height: 70px; /* Временно для сетки */
+  }
+
+  .main-nav__user-items {}
+}
